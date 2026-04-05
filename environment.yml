@@ -1,0 +1,4 @@
+name: uppercase-tool
+channels:
+  - defaults
+prefix: C:\Users\caitl\anaconda3\envs\uppercase-tool

@@ -87,7 +87,8 @@ def on_close():
 
 root = tk.Tk()
 root.title("UPPERCASE Tool")
-root.geometry("380x320")
+root.geometry("600x360")
+root.minsize(400, 220)
 root.resizable(False, False)
 root.configure(bg="#1e1e2e")
 root.protocol("WM_DELETE_WINDOW", on_close)

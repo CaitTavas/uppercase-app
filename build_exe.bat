@@ -5,6 +5,6 @@ echo ============================================
 echo.
 
 @echo off
-pyinstaller --noconfirm --onefile --windowed --name "UPPERCASE Tool" main.py
+python -m PyInstaller --noconfirm --onefile --windowed --name "UPPERCASE Tool" main.py
 echo Done! Find your .exe in dist/
 pause
